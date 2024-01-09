@@ -131,7 +131,8 @@ header {
 
 /* Body styles part 3: date, place, times*/
 .address {
-    background-color: rgb(246, 242, 243);
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
@@ -211,16 +212,134 @@ header {
     width: 896px;
     margin-bottom: 48px;
 }
-.row-1{
+
+.row-1 {
     margin-top: 0px;
     margin-bottom: 24px;
     display: flex;
 }
-.row-2{
+
+.row-2 {
     margin-top: 0px;
     margin-bottom: 24px;
     display: flex;
 }
-.products{
+
+.products {
     margin-right: 24px;
+}
+
+/* Newsletter styles */
+.newsletter {
+    width: 1320px;
+    height: 616px;
+    margin: 120px 140px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+
+#news-letter {
+    margin: 80px 585px 40px 585px;
+}
+
+.Subscribe {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    margin-top: 0px;
+}
+
+.newsletter-text {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 48px;
+    margin-left: 212px;
+}
+
+.sub-btn {
+    width: 648px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #FFF;
+    margin-left: 336px;
+    display: flex;
+}
+
+#emial {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: 0px;
+    border-radius: 50px;
+}
+
+#sub {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: inherit;
+    border: 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+/* footer style */
+.address-website {
+    background: #070211;
+    display: flex;
+    width: 1600px;
+    height: 609px;
+    flex-shrink: 0;
+
+}
+
+.web-mob {
+    display: block;
+    margin: 0px;
+}
+
+.mobile {
+    display: flex;
+}
+
+.website {
+    display: flex;
+}
+
+#ofc-addr {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 120px 559px 0px 140px;
+    width: 375px;
+    height: 80px;
 }
